@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "This Week in MIT Distributed Systems: 0"
+---
+
+I decided a little over a week ago that I was going to take MIT's [6.824](https://pdos.csail.mit.edu/6.824/) Distributed Systems Engineering graduate course. Why? Well, a few reasons:
+1. I find the topic pretty interesting. "How do you take a problem that would ordinarily run on / use one computer and split it up amongst many other computers in order to increase throughput, redundantly store files, etc.? What are the characteristics of these systems?"
+2. As of right now, I think studying distributed systems is a pretty great career choice if you're optimizing for career stability, problem interestingness, and money. The scale needed by not just MEGACORP websites but smaller companies as well (especially when it comes to data processing) is just gonna keep increasing as the amount of data getting recorded keeps increasing. So if you know how to build these kinds of systems, you're probably never going to have trouble finding a job and you'll have quite a bit of bargaining power since there aren't too many people who know how to build this stuff. Even if the future of the web is more decentralized than it is today, all of the infrastructure needed for that is distributed systems. 
+3. I was looking for projects I could do that, by having completed them and read about them, I would know more about constructing distributed systems. Came across the MIT course via a Hacker News thread. Saw that this new semester of the course was starting in a few days (what luck!) so I figured "perfect, I can follow along at the same pace as people who are actually enrolled in the class and prove to myself that I can do well in the same class that these really bright grad students are taking."
+
+So I'm writing this blog series in order to keep myself accountable and not fall behind since I don't have the fact that I'm paying to take the class holding me accountable. I'll put out a post every week summarizing what I was learning about and what things I was doing related to the class that week.
+
+This week was a lot of intro stuff. Read the MapReduce paper before the first lecture, read the lecture notes, watched the video of the first lecture (seems this is the first year they're doing an official video version which I'm glad about). Read all of the content for the first week basically. Also did the question and answer (make a web crawler with concurrency primitives in Go) that was due for Thursday. I know my version of the web crawler didn't work as expected but at least I tried (plus that part is only graded for completion afaik). Also began on Lab 1 which is to implement the distributed version of MapReduce described in the paper. I had somewhat of a tough time getting started, but I think I have a better view now of where I am and where I'm going with it.
+
+One more thing: I'm so grateful to be living in a time where I can take a class from one of the most prestigious STEM institutions on Earth for free from the comfort of my own home. What a time to be alive.
